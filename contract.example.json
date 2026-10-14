@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "variables": {
+    "APP_ENV": {"choices": ["development", "staging", "production"]},
+    "PORT": {"type": "integer", "min": 1, "max": 65535},
+    "DEBUG": {"type": "boolean"},
+    "PUBLIC_URL": {"type": "http_url"},
+    "API_TOKEN": {"type": "string"},
+    "OPTIONAL_LABEL": {"required": false, "allow_empty": true}
+  }
+}
