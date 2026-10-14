@@ -1,0 +1,37 @@
+{
+  "errors": [
+    {
+      "code": "missing",
+      "name": "API_TOKEN"
+    },
+    {
+      "code": "not_in_choices",
+      "name": "APP_ENV"
+    },
+    {
+      "code": "invalid_boolean",
+      "name": "DEBUG"
+    },
+    {
+      "code": "above_maximum",
+      "name": "PORT"
+    },
+    {
+      "code": "invalid_http_url",
+      "name": "PUBLIC_URL"
+    }
+  ],
+  "format_version": 1,
+  "ok": false,
+  "summary": {
+    "declared": 6,
+    "errors": 5,
+    "warnings": 1
+  },
+  "warnings": [
+    {
+      "code": "unexpected",
+      "name": "LEGACY_FLAG"
+    }
+  ]
+}
